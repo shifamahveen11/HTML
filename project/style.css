@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Ubuntu&display=swap');
+
+/* .main{
+    background-color: yellow;
+} */
+.header{
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1px;
+}
+
+body{
+    margin: 0px;
+}
+
+.container, .about{
+    display: flex;
+    flex-direction: row;
+}
+
+button:hover{
+    opacity: 0.85;
+    cursor: pointer;
+}
+
+/*hero section*/
+
+ul{
+    margin-top: 0;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+ul li{
+    margin: 14px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a:hover{
+    opacity: 0.7;
+}
+
+.info{
+    margin: 180px 0;
+    text-align: center;
+}
+
+.info h1{
+    color: yellow;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+
+h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.info p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.header{
+    color: white;
+    background-image: linear-gradient(45deg, rgba(65, 62, 62, 0.75), rgba(9, 9, 9, 0.75)),url("../images/bg.jpeg");
+    background-size: cover;
+    height: 90vh;
+}
+
+.header .main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.header .main div h1{
+    font-size: 30px;
+}
+
+.header .main div h1 span{
+    color: yellow;
+}
+
+.info button{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgb(58, 158, 95);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+/*about section*/
+
+.about{
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+
+.about-1{
+    width: 40%;
+    text-align: justify;
+    margin: auto 0;
+}
+
+.about-2{
+    width: 30%;
+}
+
+.about-2 img{
+    border-radius: 5px;
+}
+
+
+/*gallery section*/
+
+.gallery{
+    margin-top: 30px;
+    padding: 0 50px;
+}
+
+.gallery h2{
+    margin: 40px auto;
+}
+
+.gallery .container{
+    justify-content: space-around;
+}
+
+.gallery .container div{
+    width: 20%;
+    text-align: justify;
+}
+
+.gallery .container div h4{
+    text-align: center;
+}
+
+.gallery .container div img{
+    border-radius: 5px 5px 0px 0;
+    display: block;
+    margin: auto;
+}
+
+.gallery .container div{
+    border-radius: 5px;
+}
+
+/*classes section*/
+
+.classes .container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.classes .container div{
+    width: 25%;
+    text-align: justify;
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 10px 25px;
+    
+}
+
+.classes .container div h3{
+    text-align: center;
+}
+
+/*contact section*/
+
+.contact{
+    text-align: center;
+    padding-bottom: 30px;
+    background-color: #00394f;
+    color: white;
+}
+
+.contact h2{
+    padding-top: 30px;
+}
+.contact button{
+    margin:10px;
+    width: 30%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightgrey;
+    color: #00394f;
+    border: 0;
+    font-weight: 550;
+    font-size: 16px;
+}
+form{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.form-elements{
+    display: flex;
+    justify-content: space-between;
+}
+.form-elements input, textarea{
+    padding: 10px;
+}
+.form-elements input{
+    width: 50%;
+}
+label{
+    font-size: 20px;
+}
+
+.about{
+    padding: 10px;
+}
